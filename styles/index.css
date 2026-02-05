@@ -1,0 +1,46 @@
+body {background-color: #222;}
+#wrap {
+    background-color: #fff;
+    width:440px; height:956px;
+    margin: 0 auto;
+    background-image:url(../images/bg1.jpg);
+    background-size: 300% auto; /* w h */
+    background-repeat:no-repeat; /* 화면보다 이미지가 작을 때 */
+    background-position:right;/* x y */
+    padding:100px 0 0;
+    text-align:center;
+}
+#wrap #title {}
+#wrap #title p {
+    margin-bottom: 12px; 
+    font-size: 1.63rem;
+}
+#wrap #title h1 {
+    margin-bottom: 40px; 
+    font-size: 1.25rem;}
+#wrap #title h1 span {}
+#wrap #birthday_frm {}
+#wrap #birthday_frm > * {
+    display: block;
+    margin:0 auto;
+}
+#wrap #birthday_frm input { 
+    width: 120px; height: 40px; 
+    border-radius: 10px;
+    text-align: center;
+    color:black
+}
+#wrap #birthday_frm input::placeholder {color: #ccc;}
+#wrap #birthday_frm input:focus {border: 2px solid #F47FB2;}
+#wrap #birthday_frm #user_year {margin-bottom: 10px;}
+#wrap #birthday_frm #user_month {margin-bottom: 10px;}
+#wrap #birthday_frm #user_day {margin-bottom: 40px;}
+#wrap #birthday_frm #birthday_btn {
+    color: #fff;
+    background-color: black;
+    width: 240px; height: 44px;
+    border-radius: 15px;
+}
+#wrap #birthday_frm #birthday_btn:hover {
+    background-color: #F47FB2;
+}
