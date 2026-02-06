@@ -1,0 +1,52 @@
+body {background-color: #222;}
+#wrap {
+    width: 440px; height: 956px;
+    margin: 0 auto;
+    background-image:url(../images/bg2.jpg);
+    background-size: 150%;
+    background-position: bottom;
+    text-align: center;
+    padding:100px 0 0;
+}
+#wrap #title {
+    margin:0 0 40px;
+}
+#wrap #title p {
+    font-size: 1.25rem;
+    margin: 0 0 14px;
+}
+#wrap #title h1 {
+    font-size: 1.63rem;
+    font-family: MaruBURI-B;
+}
+#wrap #contents {
+}
+#wrap #contents .user_month {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+#wrap #contents .result {
+    line-height: 1.5;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+#wrap #share_btn {
+    color: #fff;
+    background-color: #F47FB2;
+    width: 255px; line-height: 44px;
+    border-radius: 15px;
+    margin: 0 auto 20px;
+}
+#wrap .back {
+    text-decoration:underline;
+    display: block;
+}
+#wrap #share_btn:hover {
+    background-color: #feadd0;
+}
+#wrap .back:hover {
+    color: #b4185c;
+}
+#wrap #share_btn,
+#wrap .back {display: block;}

@@ -13,11 +13,12 @@ body {background-color: #222;}
 #wrap #title {}
 #wrap #title p {
     margin-bottom: 12px; 
-    font-size: 1.63rem;
+    font-size: 1.25rem;
+    margin: 0 0 14px;
 }
 #wrap #title h1 {
     margin-bottom: 40px; 
-    font-size: 1.25rem;}
+    font-size: 1.63rem;}
 #wrap #title h1 span {}
 #wrap #birthday_frm {}
 #wrap #birthday_frm > * {
