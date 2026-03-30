@@ -45,3 +45,9 @@ body {background-color: #222;}
 #wrap #birthday_frm #birthday_btn:hover {
     background-color: #F47FB2;
 }
+#wrap .error_msg {
+    font-size: 0.75rem; color:#f00;
+    font-family:'맑은 고딕', sans-serif;
+    line-height:2; font-weight:600;
+    display:none;/* 초기 숨기기 */
+}
